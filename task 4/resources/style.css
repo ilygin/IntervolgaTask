@@ -26,19 +26,27 @@ tr:hover td {
 	color: #6699ff;
 }
 
-.button_delete {
+td:nth-child(2){
 	width: 20%;
 }
 
 .btn_delete {
+	display: flex;
+    justify-content: center;
+    align-items: center;
 	background-color: transparent;
-	height: 34px;
+	width: 64px;
+	height: 32px;
 	border: 0;
 	border: 1px solid #000;
 	border-radius: 8px;
+	text-align: center;
+	text-decoration: none;
+	color: #669
 }
 
 .btn_delete:hover {
 	background-color: #F5F5F5;
 	cursor: pointer;
+	color: #6699ff;
 }
